@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="rS9-4A-Xbq" id="JWQ-ls-2Ie"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="rS9-4A-Xbq" customClass="AppDelegate" customModule="Automatically_Move_Mouse_Pointer_To_Default_Button_in_a_dialog_box" customModuleProvider="target">
+            <connections>
+                <outlet property="menu" destination="Yfn-Su-qdm" id="ZJV-PT-d3f"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="Yfn-Su-qdm">
+            <items>
+                <menuItem title="Start at Login" onStateImage="NSMenuOnStateTemplate" offStateImage="NSMenuMixedStateTemplate" identifier="StartAtLogin" id="1g3-MC-OyS">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="onClickMenuItem:" target="rS9-4A-Xbq" id="jKX-AK-jNK"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Enable" hidden="YES" identifier="EventStatus" id="nFj-Gp-3xv">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="onClickMenuItem:" target="rS9-4A-Xbq" id="ava-KE-A8t"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" keyEquivalent="q" id="EEn-e5-cj0">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="terminate:" target="-2" id="9bo-0Y-aay"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="18" y="34"/>
+        </menu>
+    </objects>
+    <resources>
+        <image name="NSMenuMixedStateTemplate" width="10" height="2"/>
+        <image name="NSMenuOnStateTemplate" width="12" height="12"/>
+    </resources>
+</document>

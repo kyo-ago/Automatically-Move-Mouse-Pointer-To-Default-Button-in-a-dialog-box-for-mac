@@ -1,0 +1,9 @@
+
+/* Class = "NSMenuItem"; title = "Start at Login"; ObjectID = "1g3-MC-OyS"; */
+"1g3-MC-OyS.title" = "ログイン時に起動する";
+
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "EEn-e5-cj0"; */
+"EEn-e5-cj0.title" = "終了";
+
+/* Class = "NSMenuItem"; title = "Enable"; ObjectID = "nFj-Gp-3xv"; */
+"nFj-Gp-3xv.title" = "Enable";
