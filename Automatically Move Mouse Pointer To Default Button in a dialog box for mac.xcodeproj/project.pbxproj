@@ -19,6 +19,7 @@
 		316A71AA20FF7E9E00324E73 /* GetLoginItems.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 316A71A920FF7E9E00324E73 /* GetLoginItems.scpt */; };
 		316D0F4C20F38AB800FF28CC /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316D0F4B20F38AB800FF28CC /* Application.swift */; };
 		316D0F4E20F49B8F00FF28CC /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316D0F4D20F49B8F00FF28CC /* Applications.swift */; };
+		31ED6A102106E83B00BB1E1D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 31ED6A0F2106E83B00BB1E1D /* .gitignore */; };
 		31F387EF20ED018400AB5990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F387EE20ED018400AB5990 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		316A71A920FF7E9E00324E73 /* GetLoginItems.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetLoginItems.scpt; sourceTree = "<group>"; };
 		316D0F4B20F38AB800FF28CC /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		316D0F4D20F49B8F00FF28CC /* Applications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applications.swift; sourceTree = "<group>"; };
+		31ED6A0E2106A9F200BB1E1D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		31ED6A0F2106E83B00BB1E1D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		31F387EB20ED018400AB5990 /* Automatically Move Mouse Pointer To Default Button in a dialog box for mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automatically Move Mouse Pointer To Default Button in a dialog box for mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F387EE20ED018400AB5990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F387F520ED018800AB5990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 		31F387E220ED018400AB5990 = {
 			isa = PBXGroup;
 			children = (
+				31ED6A0F2106E83B00BB1E1D /* .gitignore */,
 				31F387ED20ED018400AB5990 /* Automatically Move Mouse Pointer To Default Button in a dialog box for mac */,
 				31F387EC20ED018400AB5990 /* Products */,
 			);
@@ -113,6 +117,7 @@
 				31F387F620ED018800AB5990 /* Automatically_Move_Mouse_Pointer_To_Default_Button_in_a_dialog_box_for_mac.entitlements */,
 				312D42992101A0A100E4D89B /* MainMenu.xib */,
 				311790122102091A00905169 /* Localizable.strings */,
+				31ED6A0E2106A9F200BB1E1D /* README.md */,
 			);
 			path = "Automatically Move Mouse Pointer To Default Button in a dialog box for mac";
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				310CC64020FF6BAF00E7C832 /* DeleteLoginItem.scpt in Resources */,
+				31ED6A102106E83B00BB1E1D /* .gitignore in Resources */,
 				311790102102091A00905169 /* Localizable.strings in Resources */,
 				312D42972101A0A100E4D89B /* MainMenu.xib in Resources */,
 				316A71AA20FF7E9E00324E73 /* GetLoginItems.scpt in Resources */,
